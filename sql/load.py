@@ -4,7 +4,8 @@ import os
 
 # Paths
 BASE_DIR = r"C:\Users\DeLL\OneDrive\New folder\brazilian_storeAnalysis"
-DB_PATH = os.path.join(BASE_DIR, "olist.db")
+DB_dir = r"C:\Users\DeLL\OneDrive\New folder"
+DB_PATH = os.path.join(DB_dir, "olist.db")
 SCHEMA_PATH = os.path.join(BASE_DIR, "sql", "schema.sql")
 DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
 
