@@ -1,7 +1,9 @@
 import sqlite3
 import pandas as pd
+import os
 
-DB_PATH = "olist.db"
+DB_dir = r"C:\Users\DeLL\OneDrive\New folder"
+DB_PATH = os.path.join(DB_dir, "olist.db")
 conn = sqlite3.connect(DB_PATH)
 
 # Read a table
